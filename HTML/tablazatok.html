@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <title>Táblázatok</title>
     <style>
-        table, td {
+        table, td, th {
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
+            margin: auto;
         }
-        td {
+
+        td, th {
             padding: 10px;
         }
     </style>
 </head>
+
 <body>
     <h1>Táblázatok</h1>
     <!-- table, tr - table row, td - table data -->
+    <!-- th - header = fejlec -->
     <table>
+        <caption>Ország, város játék táblázata</caption>
         <tr>
-            <td>Ország</td>
-            <td>Város</td>
-            <td>Fiú</td>
-            <td>Lány</td>
+            <th>Ország</th>
+            <th>Város</th>
+            <th>Fiú</th>
+            <th>Lány</th>
         </tr>
         <tr>
             <td>Albánia</td>
@@ -30,7 +36,59 @@
             <td>Antal</td>
             <td>Anna</td>
         </tr>
+        <tr>
+            <td>Bulgária</td>
+            <td>Budapest</td>
+            <td>Balázs</td>
+            <td>Boglárka</td>
+        </tr>
+        <tr>
+            <td>Ciprus</td>
+            <td>Cegléd</td>
+            <td>Cézár</td>
+            <td>Cecil</td>
+        </tr>
+        <tr>
+            <td>Dánia</td>
+            <td>Debrecen</td>
+            <td>Dániel</td>
+            <td>Diána</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <tr>
+            <th>Osztály</th>
+            <th>Név</th>
+        </tr>
+        <tr>
+            <td>9b</td>
+            <td>Kássa Máté</td>
+        </tr>
+        <tr>
+            <td>9b</td>
+            <td>Dudás-Vig Zsolt</td>
+        </tr>
+        <tr>
+            <td>9b</td>
+            <td>Lédeczi Zsófia</td>
+        </tr>
+        <tr>
+            <td>9b</td>
+            <td>Szűcs Csaba</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9c</td>
+            <td>Tóth Kata</td>
+        </tr>
+        <tr>
+            <!-- <td>9c</td> -->
+            <td>Fülep Fanni</td>
+        </tr>
     </table>
 
 </body>
+
 </html>
