@@ -1,0 +1,42 @@
+/* 
+Block: p, h1-h6, div
+Inline: i, b, u, a, span
+???: img
+*/
+
+img {
+    width: 30%;
+    border: 2px dotted brown;
+    display: block;
+    margin: auto;
+}
+
+p {
+    background-color: yellow;
+    width: 20%;
+    margin: 10px auto;
+}
+
+div {
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/* inline:
+1. Csak annyi helyet foglal amennyit muszaj --> width, height nem mukodik
+2. Egymas mellett jelenik meg
+*/
+.egysoros {
+    display: inline;
+}
+
+/* block:
+1. Alapbol teljes teret kitolti
+2. Egymas alatt jelenik meg
+*/
+.tobbsoros {
+    display: block;
+}
+
