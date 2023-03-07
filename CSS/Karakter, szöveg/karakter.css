@@ -1,0 +1,26 @@
+#labdarugas {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+#foci {
+    color: red;
+    /* font-size: 30px; */
+    /* %: szulohoz kepest */
+    /* font-size: 200%; */
+    /* em: aktualis betumerethez kepest */
+    font-size: 2em;
+
+    background-color: lightblue;
+    display: inline-block;
+    width: 40%;
+    /* width: 0.4em; */
+}
