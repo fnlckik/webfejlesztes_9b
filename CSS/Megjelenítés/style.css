@@ -1,11 +1,14 @@
 /* 
-Block: p, h1-h6, div
+Block: p, h1-h6, div, body
 Inline: i, b, u, a, span
-???: img
+Inline-block: img
 */
 
+/* 
+Kepek kozepre igazitasa
+*/
 img {
-    width: 30%;
+    width: 40%;
     border: 2px dotted brown;
     display: block;
     margin: auto;
@@ -40,3 +43,14 @@ div {
     display: block;
 }
 
+/* inline-block:
+1. Állítható a mérete (width, height) --> block
+2. Egy sorba kerul (egymast koveto elemek) --> inline
+*/
+.vegyes {
+    display: inline-block;
+}
+
+#nincs {
+    display: none;
+}
