@@ -8,7 +8,7 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 8px;
 }
 
 #foci {
@@ -23,4 +23,31 @@ p {
     display: inline-block;
     width: 40%;
     /* width: 0.4em; */
+}
+
+html {
+    font-size: 20px;
+}
+
+#labda {
+    color: blue;
+    /* rem: root ephemeral unit */
+    /* root == html elem */
+    font-size: 2rem;
+}
+
+/* kiskapitalis */
+#usa {
+    font-variant: small-caps;
+}
+
+#ifa {
+    color: purple;
+    /* serif: talpas */
+    /* sans-serif: talpatlan */
+    /* cursive: kezirasos */
+    /* monospace: egyforma szelessegu betuk */
+    /* fantasy: kulonleges */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rubik Iso', cursive;
 }
