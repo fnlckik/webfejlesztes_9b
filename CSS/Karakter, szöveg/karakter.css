@@ -5,6 +5,22 @@
 
 h1 {
     font-weight: normal;
+    text-align: center;
+    /* text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px; */
+    text-decoration: 1px underline overline green wavy;
+}
+
+a {
+    background-color: lightgreen;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
 
 p {
@@ -50,4 +66,29 @@ html {
     /* fantasy: kulonleges */
     font-family: 'Courier New', Courier, monospace;
     font-family: 'Rubik Iso', cursive;
+}
+
+p {
+    margin: 40px 0px;
+}
+
+#masodik {
+    /* sorkoz */
+    line-height: 1.5em;
+    /* szoveg igazitas */
+    /* left, right, center, justify = sorkizárt */
+    text-align: justify;
+}
+
+#labsport {
+    /* ritkitas, surites */
+    letter-spacing: 5px;
+    letter-spacing: -0.8px;
+}
+
+#fifa {
+    /* kisbetus, nagybetus, nagy kezdobetuk */
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
 }
