@@ -1,0 +1,12 @@
+div {
+    background-color: aqua;
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#doboz1 {
+    /* r, g, b => 0-tol 255-ig */
+    /* rgb(r, g, b) */
+    background-color: rgb(200, 40, 0);
+}
